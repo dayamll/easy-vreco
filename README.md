@@ -12,6 +12,17 @@ EASY VRECO, tendra la funcionalidad de asignar un primer punto(punto de partida)
 
 ## Desarrollo de la aplicación
 
+1. Creación de la clave del API Google maps:
+
+> [Obtener una clave o autenticación](https://developers.google.com/maps/documentation/javascript/get-api-key#key)
+
+```javascript
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEYcallback=initMap" type="text/javascript"></script>
+```
+
+```javascript
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1ozd6hpRLAocja0Vq9LbTkfZSdKDN4DE&callback=initMap" type="text/javascript"></script>
+```
 
 ***
 
