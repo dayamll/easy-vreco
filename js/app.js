@@ -65,7 +65,7 @@ function initMap() {
   let originPoint = document.getElementById('input-origin');
   let destinationPoint = document.getElementById('input-destination');
 
-  // usando la libraría Autocomplete para el autocompletado de los lugares
+  // Usando la libraría Autocomplete para el autocompletado de los lugares
   new google.maps.places.Autocomplete(originPoint);
   new google.maps.places.Autocomplete(destinationPoint);
 
