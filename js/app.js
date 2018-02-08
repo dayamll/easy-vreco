@@ -30,7 +30,7 @@ function initMap() {
   });
 
   // Realizamos el llamado al evento load para que pueda ubicarme al momento que carge la pagina
-  window.addEventListener('load', function () {
+  window.addEventListener('load', function() {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(getCoords, errorFound);
     } else {
@@ -70,10 +70,10 @@ function initMap() {
   new google.maps.places.Autocomplete(destinationPoint);
 
   // Evento que traza la ruta y obtiene información de lo ruta,
-  let btnRuta = document.getElementById('trace-route');
-  btnRuta.addEventListener('click', trazarRuta);
+  let btnRoute = document.getElementById('trace-route');
+  btnRoute.addEventListener('click', traceRoute);
 
-  function trazarRuta(e) {
+  function traceRoute(e) {
     e.preventDefault();
     let request = {
       origin: originPoint.value,
@@ -85,7 +85,7 @@ function initMap() {
 
       if (status === 'OK') {
         directionsDisplay.setDirections(result);
-        let distancia = result.routes[0].legs[0].distance.value;
+        let distance = result.routes[0].legs[0].distance.value;
       } else {
         window.alert('No encontramos la ruta');
       }
