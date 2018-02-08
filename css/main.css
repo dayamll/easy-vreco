@@ -55,14 +55,40 @@ input[type=text]:not(.browser-default):focus:not([readonly])+label {
   border-radius: 10px;
 }
 
+nav .brand-logo {
+  margin-top: 50px;
+  color: black;
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+}
+
+/* footer {
+  height: 40px;
+  background-color: rgba(50, 16, 65, 0.795);
+  margin-bottom: 0;
+} */
+
+/* .color {
+  color: grey;
+} */
+
 @media only screen and (min-width: 601px) {
   .background {
-    background-image: url(../assets/images/fondo.svg);
+    background-image: url('../assets/images/fondo.svg');
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    overflow: hidden;
+  }
+
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 200px;
+    background: url('../assets/images/fondo2.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
   }
 }
