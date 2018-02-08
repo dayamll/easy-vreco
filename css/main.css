@@ -16,10 +16,6 @@ body {
   margin-top: 20px;
 }
 
-.title {
-  font-family: 'Fredericka the Great', cursive;
-}
-
 /* label focus color */
 
 .input-field label {
@@ -58,22 +54,16 @@ input[type=text]:not(.browser-default):focus:not([readonly])+label {
 }
 
 nav .brand-logo {
-  margin-top: 50px;
+  margin-top: 20px;
   color: black;
   font-weight: 600;
   font-size: 60px;
   text-align: center;
 }
 
-/* footer {
-  height: 40px;
-  background-color: rgba(50, 16, 65, 0.795);
-  margin-bottom: 0;
-} */
-
-/* .color {
-  color: grey;
-} */
+.margin {
+  margin-right: 30px; 
+}
 
 @media only screen and (min-width: 601px) {
   .background {
@@ -86,7 +76,7 @@ nav .brand-logo {
   }
 
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 200px;
+    height: 100px;
     background: url('../assets/images/fondo2.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
@@ -95,7 +85,13 @@ nav .brand-logo {
   }
 
   .space-map {
-    margin: 0 100px 50px 100px;
+    margin: -20px 100px 15px 100px;
     box-shadow: 8px 8px 8px 8px rgb(161, 160, 160);
   }
+
+  html,
+  body {
+    height: 400px;
+  }
+  
 }
