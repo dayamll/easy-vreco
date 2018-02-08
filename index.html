@@ -14,18 +14,25 @@
 </head>
 
 <body class="background">
+  <nav class="hide-on-small-only">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center title">Searching Routes</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+      </ul>
+    </div>
+  </nav>
   <div class="row space">
-    <h1 class="center-align title">Searching Routes</h1>
+    <h1 class="center-align title hide-on-large-only hide-on-med-only">Searching Routes</h1>
     <form class="col s12">
       <div class="row">
         <div class="input-field col s6">
           <i class="material-icons prefix">adjust</i>
-          <input id="input-origin" type="text" class="validate ">
+          <input id="input-origin" type="text" class="validate" placeholder="">
           <label>Origin</label>
         </div>
         <div class="input-field col s6">
           <i class="material-icons prefix">add_location</i>
-          <input id="input-destination" type="text" class="validate">
+          <input id="input-destination" type="text" class="validate" placeholder="">
           <label>Destination</label>
         </div>
         <div class="center-align">
@@ -38,6 +45,17 @@
 
   <div class="space-map img-responsive" id="map"></div>
 
+  <!-- <footer>
+    <div class="container">
+      <div class="row">
+        <div class="footer-copyright">
+          <div class="container color center-align">
+            © 2018 Margarit Sutta y Dayam Llerena
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1ozd6hpRLAocja0Vq9LbTkfZSdKDN4DE&callback=initMap"
