@@ -13,7 +13,7 @@ body {
 }
 
 .space {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .title {
@@ -44,6 +44,8 @@ input[type=text]:not(.browser-default):focus:not([readonly])+label {
 
 .space-map {
   margin: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgba(85, 79, 79, 0.466);
 }
 
 .size-map {
@@ -75,7 +77,7 @@ nav .brand-logo {
 
 @media only screen and (min-width: 601px) {
   .background {
-    background-image: url('../assets/images/fondo.svg');
+    background-image: url('../assets/images/fondo.png');
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -90,5 +92,10 @@ nav .brand-logo {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+  }
+
+  .space-map {
+    margin: 0 100px 50px 100px;
+    box-shadow: 8px 8px 8px 8px rgb(161, 160, 160);
   }
 }
