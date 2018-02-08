@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 html,
 body {
   height: 250px;
@@ -26,15 +21,16 @@ body {
 }
 
 /* label focus color */
+
 .input-field label {
   color: #000;
 }
 
-.input-field input.validate{
+.input-field input.validate {
   border-bottom: 1px solid #000;
 }
 
-input[type=text]:not(.browser-default):focus:not([readonly])+label{
+input[type=text]:not(.browser-default):focus:not([readonly])+label {
   color: black !important;
 }
 
