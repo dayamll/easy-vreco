@@ -20,16 +20,16 @@
       <div class="row">
         <div class="input-field col s6">
           <i class="material-icons prefix">adjust</i>
-          <input id="starting-point" type="text" class="validate">
+          <input id="input-origin" type="text" class="validate ">
           <label>Origin</label>
         </div>
         <div class="input-field col s6">
           <i class="material-icons prefix">add_location</i>
-          <input id="destination-point" type="text" class="validate">
+          <input id="input-destination" type="text" class="validate">
           <label>Destination</label>
         </div>
         <div class="center-align">
-          <a class="waves-effect waves-light btn-large indigo darken-3 radius color">
+          <a id="trace-route" class="waves-effect waves-light btn-large indigo darken-3 radius color" type="button">
             <i class="material-icons right">search</i>search</a>
         </div>
       </div>
@@ -42,7 +42,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1ozd6hpRLAocja0Vq9LbTkfZSdKDN4DE&callback=initMap"
     type="text/javascript"></script> -->
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW71LpkCyaJaQRZvNZ2Wy3oMc56R4Bpy0&callback=initMap">
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW71LpkCyaJaQRZvNZ2Wy3oMc56R4Bpy0&callback=initMap&sensor=false&amp;libraries=places">
   </script>
   <script src="js/app.js"></script>
 </body>
