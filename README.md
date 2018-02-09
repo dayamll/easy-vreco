@@ -44,23 +44,25 @@ Todos los retos deben incluir por los menos los siguientes archivos:
 
 1. HTML 5
 2. CSS3
-3. Bootstrap v4
+3. Materialize
 4. Javascript
-5. jQuery
-6. API de Geolocation
-7. API de Google maps
+5. API de Geolocation
+6. API de Google maps
 
 ***
 
 ## Progreso propuesto
 
-Se nos proponen los siguientes checklists de progreso para cada semana:
+Se nos proponen los siguientes checklists de progreso:
 
-_**SEMANA 1.**_
+_**DÍA 1.**_
 
 * [X] Elegir reto.
 * [X] Crear el clave del API de Google maps.
-* [x] Escribir primera versión del README.md con una descripción general de la librería así como ejemplos (snippets) de uso y configuración (si fuera necesario).
-* [x] Inicializar proyecto con npm init y git init.
+* [x] Escribir primera versión del README.md con una descripción general de la aplicación.
+* [x] Inicializar proyecto con git init.
+* [x] Maquetado.
+* [x] Funcionalidad de Geolocation.
+* [x] Funcionalidad de trazado de ruta.
 
 ***
