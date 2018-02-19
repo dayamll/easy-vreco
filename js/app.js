@@ -1,3 +1,5 @@
+
+
 function initMap() {
   const containerMap = document.getElementById('map');
   const directionsService = new google.maps.DirectionsService();
@@ -94,3 +96,4 @@ function initMap() {
     directionsService.route(request, callback);
   }
 }
+
