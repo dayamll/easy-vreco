@@ -9,6 +9,10 @@
 EASY VRECO, tendra la funcionalidad de asignar un primer punto(punto de partida) y otro punto(punto de llegada), para luego trazar la ruta entre los puntos ya asignados.
 
 ***
+![Device](assets/images/screen-inicio.png)
+![Device](assets/images/screen-geolocation.png)
+
+***
 
 ## Desarrollo de la aplicación
 
